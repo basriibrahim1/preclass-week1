@@ -26,7 +26,7 @@ const printSegitiga = 5
 for(let i = 1; i <= printSegitiga; i++) {
     let baris = '';
     for(let j = 1; j <= i; j++) {
-        baris += i + "";
+        baris += i;
     }
     console.log(baris)
 }
